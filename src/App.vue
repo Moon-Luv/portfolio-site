@@ -39,10 +39,10 @@ onMounted(() => {
     <main>
       <HeroSection @scroll-to="scrollToSection" />
       <AboutSection @scroll-to="scrollToSection" />
-      <ProjectsSection />
       <SkillsSection />
-      <TestimonialsSection />
       <CertificationsSection />
+      <ProjectsSection />
+      <TestimonialsSection />
       <ContactSection />
     </main>
     

@@ -50,7 +50,7 @@ onUnmounted(() => {
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center space-x-8">
         <a 
-          v-for="(item, index) in ['home', 'about', 'projects', 'skills', 'testimonials', 'certifications', 'contact']" 
+          v-for="(item, index) in ['home', 'about', 'skills', 'certifications', 'projects', 'contact']" 
           :key="index"
           href="#"
           @click.prevent="scrollToSection(item)"
@@ -86,7 +86,7 @@ onUnmounted(() => {
     >
       <nav class="flex flex-col space-y-4 px-4">
         <a 
-          v-for="(item, index) in ['home', 'about', 'projects', 'skills', 'testimonials', 'certifications', 'contact']" 
+          v-for="(item, index) in ['home', 'about', 'skills', 'certifications', 'projects', 'contact']" 
           :key="index"
           href="#"
           @click.prevent="scrollToSection(item)"

@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { useMotion } from '@vueuse/motion'
 
-const phrases = ref(['Full-Stack Developer', 'JavaScript Enthusiast', 'Open Source Contributor'])
+const phrases = ref(['Full-Stack Developer', 'Python Ninja', 'JavaScript Enthusiast', "Database warrior", 'Open Source Contributor'])
 const currentPhraseIndex = ref(0)
 const displayText = ref('')
 const isDeleting = ref(false)
@@ -75,7 +75,7 @@ const { motion } = useMotion()
         <!-- Left side with text -->
         <div v-motion="heroAnimation" class="w-full md:w-1/2 space-y-6">
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 dark:text-white">
-            Hi, I'm <span class="text-primary-600 dark:text-primary-400">Your Name</span>
+            Hi, I'm <span class="text-primary-600 dark:text-primary-400">Polash</span>
           </h1>
           
           <div class="h-16 flex items-center">

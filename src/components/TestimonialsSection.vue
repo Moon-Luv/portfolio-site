@@ -68,7 +68,6 @@ const { motion } = useMotion()
         <div 
           v-for="(testimonial, index) in testimonials" 
           :key="testimonial.id"
-          v-motion="testimonialAnimation"
           :custom="index"
           class="bg-gray-50 dark:bg-dark-600 p-6 rounded-lg shadow-lg relative"
         >

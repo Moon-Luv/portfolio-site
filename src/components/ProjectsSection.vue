@@ -76,7 +76,7 @@ const { motion } = useMotion()
         <div 
           v-for="(project, index) in projects" 
           :key="project.id"
-          v-motion="projectAnimation"
+
           :custom="index"
           class="bg-gray-50 dark:bg-dark-600 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
         >

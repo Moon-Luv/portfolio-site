@@ -26,7 +26,7 @@ watch(filteredSkills, () => {
 </script>
 
 <template>
-  <section class="py-20 bg-gray-50 dark:bg-dark-800 overflow-hidden">
+  <section id="skills" class="py-20 bg-gray-50 dark:bg-dark-800 overflow-hidden">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-extrabold text-center mb-12">My Skills</h2>
 

@@ -28,7 +28,7 @@ A professional single-page software developer portfolio website built with Vue 3
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/nohan-ahmed/portfolio-site.git
 cd portfolio
 ```
 

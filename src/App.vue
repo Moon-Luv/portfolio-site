@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import SkillsSection from './components/SkillsSection.vue'
+import ExperienceSection from './components/ExperienceSection.vue'
 import TestimonialsSection from './components/TestimonialsSection.vue'
 import CertificationsSection from './components/CertificationsSection.vue'
 import ContactSection from './components/ContactSection.vue'
@@ -40,6 +41,7 @@ onMounted(() => {
       <HeroSection @scroll-to="scrollToSection" />
       <AboutSection @scroll-to="scrollToSection" />
       <SkillsSection />
+      <ExperienceSection />
       <CertificationsSection />
       <ProjectsSection />
       <TestimonialsSection />

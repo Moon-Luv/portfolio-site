@@ -48,7 +48,7 @@ onUnmounted(() => {
       <a href="#" class="text-xl font-bold text-primary-600 dark:text-primary-400">Portfolio</a>
       
       <!-- Desktop Navigation -->
-      <nav class="hidden md:flex items-center space-x-8">
+      <nav class="hidden lg:flex items-center space-x-8">
         <a 
           v-for="(item, index) in ['home', 'about', 'skills', 'experience', 'certifications', 'projects', 'contact']" 
           :key="index"
@@ -61,8 +61,8 @@ onUnmounted(() => {
         <DarkModeToggle />
       </nav>
       
-      <!-- Mobile Menu Button -->
-      <div class="flex items-center md:hidden space-x-4">
+      <!-- Mobile/Tablet Menu Button -->
+      <div class="flex items-center lg:hidden space-x-4">
         <DarkModeToggle />
         <button 
           @click="toggleMenu" 
@@ -79,10 +79,10 @@ onUnmounted(() => {
       </div>
     </div>
     
-    <!-- Mobile Navigation -->
+    <!-- Mobile/Tablet Navigation -->
     <div 
       v-if="isMenuOpen" 
-      class="md:hidden bg-white dark:bg-dark-700 shadow-lg absolute w-full py-4 transition-all duration-300"
+      class="lg:hidden bg-white dark:bg-dark-700 shadow-lg absolute w-full py-4 transition-all duration-300"
     >
       <nav class="flex flex-col space-y-4 px-4">
         <a 

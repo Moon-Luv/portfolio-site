@@ -22,10 +22,11 @@ const handleSubmit = async (e) => {
   try {
     // Build payload from formData
     const payload = {
-      access_key: "9fc0cf69-a164-4499-9e4c-376c88766d64",
+      access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY,
       name: formData.value.name,
       email: formData.value.email,
       message: formData.value.message,
+      
     }
 
     const response = await fetch('https://api.web3forms.com/submit', {
